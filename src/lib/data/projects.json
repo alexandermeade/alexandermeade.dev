@@ -30,6 +30,6 @@
     "description": "An esoteric programming language built from the ground up using Rust with the Crossterm package. Inspired by the game Snakes and paired with a CLI tool that allows easy execution on all platforms.",
     "isPublic": true,
     "link": "https://github.com/alexandermeade/Snakes-and-bits"
-  },
+  }
 ]
 
