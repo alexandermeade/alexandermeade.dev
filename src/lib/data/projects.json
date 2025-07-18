@@ -31,11 +31,5 @@
     "isPublic": true,
     "link": "https://github.com/alexandermeade/Snakes-and-bits"
   },
-  {
-    "title": "FNAF Curtains Drawn",
-    "description": "A fan game built from the ground up in Rust using Tokio for async, Ratatui for terminal UI, and Rodio for audio.",
-    "isPublic": false,
-    "link": "https://github.com/alexandermeade/"
-  }
 ]
 
