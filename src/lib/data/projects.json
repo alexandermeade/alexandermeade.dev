@@ -1,10 +1,18 @@
 [
+
   {
     "title": "FitBunny",
     "description": "Full-stack fitness tracking app built with Rust (Actix) and Svelte, using JWT auth with Supabase integration.",
     "isPublic": false,
     "link": "https://github.com/alexandermeade/fitbunny"
   },
+  {
+    "title": "alexandermeade.dev",
+    "description": "The current website you're viewing built with svelte and tailwind, deployed on vercel.",
+    "isPublic": true,
+    "link": "https://github.com/alexandermeade/alexandermeade.dev"
+  },
+
   {
     "title": "3D Renderer",
     "description": "A 3D renderer I built using only SDL2 functions, which don't supply 3D capabilities.",
