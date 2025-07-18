@@ -1,0 +1,33 @@
+[
+  {
+    "title": "FitBunny",
+    "description": "Full-stack fitness tracking app built with Rust (Actix) and Svelte, using JWT auth with Supabase integration.",
+    "isPublic": false,
+    "link": "https://github.com/alexandermeade/fitbunny"
+  },
+  {
+    "title": "3D Renderer",
+    "description": "A 3D renderer I built using only SDL2 functions, which don't supply 3D capabilities.",
+    "isPublic": true,
+    "link": "https://github.com/alexandermeade/3DRenderer"
+  },
+  {
+    "title": "Lunova",
+    "description": "Experimental transpiler from Lunova language to Lua, written in C#.",
+    "isPublic": false,
+    "link": "https://github.com/alexandermeade/lunova"
+  },
+  {
+    "title": "Snakes and Bits",
+    "description": "An esoteric programming language built from the ground up using Rust with the Crossterm package. Inspired by the game Snakes and paired with a CLI tool that allows easy execution on all platforms.",
+    "isPublic": true,
+    "link": "https://github.com/alexandermeade/Snakes-and-bits"
+  },
+  {
+    "title": "FNAF Curtains Drawn",
+    "description": "A fan game built from the ground up in Rust using Tokio for async, Ratatui for terminal UI, and Rodio for audio.",
+    "isPublic": true,
+    "link": "https://github.com/alexandermeade/fnaf-CurtainsDrawn"
+  }
+]
+
