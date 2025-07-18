@@ -1,0 +1,38 @@
+@import 'tailwindcss';
+
+/* app.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* gruvbox-simple.css */
+:root {
+  --gruv-bg: #282828;       /* dark background */
+  --gruv-fg: #ebdbb2;       /* light foreground */
+  --gruv-highlight: #b16286;      /* red */
+  --gruv-subject: #98971a;    /* green */
+  --gruv-red: #fb4934;
+}
+
+
+
+
+html {
+  transition: background 0.2s, color 0.2s;
+  background: var(--gruv-bg);
+  scroll-behavior: smooth;
+}
+
+p {
+    color: var(--gruv-fg);
+}
+
+
+h1, a {
+    color: var(--gruv-subject);
+}
+
+ul, h2 {
+    color: var(--gruv-highlight);
+}
+
