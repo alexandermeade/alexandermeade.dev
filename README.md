@@ -1,43 +1,24 @@
-<<<<<<< HEAD
-# alexandermeade.dev
-My portfolio/personal website
-=======
-# sv
+# Alexander Meade Portfolio
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+This is the source code for [alexandermeade.dev](https://alexandermeade.dev), Alexander Meade’s personal portfolio website built with Svelte and Tailwind CSS, deployed on Vercel.
 
-## Creating a project
+## About
 
-If you're seeing this, you've probably already done this step. Congrats!
+Computer Science & Mathematics student passionate about full-stack development, programming languages, and software solutions.
 
-```bash
-# create a new project in the current directory
-npx sv create
+## Projects
 
-# create a new project in my-app
-npx sv create my-app
-```
+Includes FitBunny (full-stack fitness app), a 3D Renderer, Lunova transpiler, and more.
 
-## Developing
+## Technologies
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Svelte, Tailwind CSS, Rust, TypeScript, PostgreSQL, and others.
 
-```bash
-npm run dev
+## Deployment
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+Automatically deployed on Vercel via GitHub pushes to main branch.
 
-## Building
+## Contact
 
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
->>>>>>> master
+- [GitHub](https://github.com/alexandermeade)  
+- [LinkedIn](https://linkedin.com/in/alexandermeade)
