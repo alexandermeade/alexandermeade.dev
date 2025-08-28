@@ -18,7 +18,7 @@
 
   <!-- Education Section -->
   <section id="education" class="mt-16 max-w-4xl mx-auto px-6">
-    <h2 class="text-3xl font-bold mb-8 text-[var(--gruv-highlight)] border-b-4 border-[var(--gruv-highlight)] pb-2">
+    <h2 class="text-3xl font-bold mb-8 text-[var(--gruv-highlight)] border-b-4 border-[var(--gruv-highlight)] pb-2  scroll-mt-24">
       Education
     </h2>
 
