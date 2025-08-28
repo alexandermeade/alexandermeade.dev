@@ -6,41 +6,21 @@
   const toggleMenu = () => {
     open = !open;
   };
-
-  // Smooth scroll for href links
-  function scrollToHref(event) {
-    const href = event.currentTarget.getAttribute("href");
-    // Only handle in-page anchors
-    if (href.startsWith("#")) {
-      event.preventDefault(); // prevent default jump
-      const targetId = href.slice(1);
-      const targetEl = document.getElementById(targetId);
-      if (targetEl) {
-        targetEl.scrollIntoView({
-          behavior: "smooth",
-          block: "center", // vertical centering
-          inline: "center", // optional horizontal centering
-        });
-        open = false; // close mobile menu if open
-      }
-    }
-  }
 </script>
 
 <nav class="fixed top-0 left-0 w-full z-50 bg-[var(--gruv-bg)] shadow-md">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex justify-between h-16 items-center">
-      <div class="flex-shrink-0 font-semibold nav-text text-2xl" style="color: var(--gruv-highlight)">
-        Alexander Meade
-      </div>
+      <div class="flex-shrink-0 font-semibold nav-text text-2xl" style="color: var(--gruv-highlight)">Alexander Meade</div>
       
       <!-- Desktop Links -->
       <div class="hidden md:flex space-x-8">
-        <a href="/" class="font-semibold text-lg">Home</a>
-        <a href="#education" class="font-semibold text-lg" on:click={scrollToHref}>Education</a>
-        <a href="#projects" class="font-semibold text-lg" on:click={scrollToHref}>Projects</a>
-        <a href="#technologies" class="font-semibold text-lg" on:click={scrollToHref}>Technologies</a>
-        <a href="#contact" class="font-semibold text-lg" on:click={scrollToHref}>Contact</a>
+          <a href="/" class="font-semibold text-lg">Home</a>
+          <a href="#education" class="font-semibold text-lg">Education</a>
+
+        <a href="#projects" class="font-semibold text-lg">Projects</a>
+        <a href="#technologies" class="font-semibold text-lg">Technologies</a>
+        <a href="#contact" class="font-semibold text-lg">Contact</a>
       </div>
 
       <!-- Hamburger Menu Button -->
@@ -64,10 +44,9 @@
   {#if open}
     <div class="md:hidden px-4 pb-4 space-y-1 border-t border-gray-200">
       <a href="/" class="block py-2 text-gray-700 hover:text-blue-600 font-semibold" on:click={() => open = false}>Home</a>
-      <a href="#education" class="block py-2 text-gray-700 hover:text-blue-600 font-semibold" on:click={scrollToHref}>Education</a>
-      <a href="#projects" class="block py-2 text-gray-700 hover:text-blue-600 font-semibold" on:click={scrollToHref}>Projects</a>
-      <a href="#technologies" class="block py-2 text-gray-700 hover:text-blue-600 font-semibold" on:click={scrollToHref}>Technologies</a>
-      <a href="#contact" class="block py-2 text-gray-700 hover:text-blue-600 font-semibold" on:click={scrollToHref}>Contact</a>
+      <a href="#projects" class="block py-2 text-gray-700 hover:text-blue-600 font-semibold" on:click={() => open = false}>Projects</a>
+      <a href="#technologies" class="block py-2 text-gray-700 hover:text-blue-600 font-semibold" on:click={() => open = false}>Technologies</a>
+      <a href="#contact" class="block py-2 text-gray-700 hover:text-blue-600 font-semibold" on:click={() => open = false}>Contact</a>
     </div>
   {/if}
 </nav>

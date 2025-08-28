@@ -1,0 +1,62 @@
+[33mcommit c826f658f899263f693996952935ec0e1e3fbd58[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: alexandermeade <thisguys348@gmail.com>
+Date:   Thu Aug 28 14:05:07 2025 -0400
+
+    added smooth better scrolling for sections
+
+[33mcommit cd9dd8366850e15a6f380575e1c5bb9fdef81c78[m
+Author: alexandermeade <thisguys348@gmail.com>
+Date:   Thu Aug 28 13:42:46 2025 -0400
+
+    added resume
+
+[33mcommit f9556ee65deb898255498d41577f7d0bc3d1c294[m
+Author: alexander Meade <128431625+alexandermeade@users.noreply.github.com>
+Date:   Mon Jul 28 14:00:07 2025 -0400
+
+    Update README.md
+
+[33mcommit 0ca5aff39e1d8dc32ffd60055bfafc919bcad0af[m
+Author: alexander Meade <128431625+alexandermeade@users.noreply.github.com>
+Date:   Mon Jul 28 13:59:58 2025 -0400
+
+    Update README.md
+
+[33mcommit 8650812073fa25bf18196daf8b8ca612c568b0ba[m
+Author: alexandermeade <thisguys348@gmail.com>
+Date:   Sun Jul 20 13:23:06 2025 -0400
+
+    Revert "changed favi-icon"
+    
+    This reverts commit f2c8606b64ae247b7a2ac4e7ba2cfc7f365c347d.
+
+[33mcommit f2c8606b64ae247b7a2ac4e7ba2cfc7f365c347d[m
+Author: alexandermeade <thisguys348@gmail.com>
+Date:   Fri Jul 18 08:59:11 2025 -0400
+
+    changed favi-icon
+
+[33mcommit 234d520886148b3ccdea882673944be88e4e47a1[m
+Author: alexandermeade <thisguys348@gmail.com>
+Date:   Fri Jul 18 08:46:28 2025 -0400
+
+    added content
+
+[33mcommit 04f1c991db253253466ae22cb985e42d5962976a[m
+Merge: d908cc2 ca276e8
+Author: alexandermeade <thisguys348@gmail.com>
+Date:   Fri Jul 18 08:04:53 2025 -0400
+
+    Merge branch 'master'
+
+[33mcommit ca276e8c6119776e6984006b62ebc35f258bf92d[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: alexandermeade <thisguys348@gmail.com>
+Date:   Fri Jul 18 07:59:27 2025 -0400
+
+    init commit
+
+[33mcommit d908cc23d305a2a80c8710a9195fd0107f67fd96[m
+Author: alexander Meade <128431625+alexandermeade@users.noreply.github.com>
+Date:   Fri Jul 18 07:58:02 2025 -0400
+
+    Initial commit
