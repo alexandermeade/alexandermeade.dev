@@ -26,6 +26,18 @@
     "link": "https://github.com/alexandermeade/lunova"
   },
   {
+    "title": "Jason-cli",
+    "description": "A simple cli built around the Jason-rs library, written in rust.",
+    "isPublic": true,
+    "link": "https://github.com/alexandermeade/jason-cli"
+  },
+  {
+    "title": "Jason-rs",
+    "description": "A light weight javascript templating library and engine, written in rust.",
+    "isPublic": true,
+    "link": "https://github.com/alexandermeade/jason-rs"
+  },
+  {
     "title": "Snakes and Bits",
     "description": "An esoteric programming language built from the ground up using Rust with the Crossterm package. Inspired by the game Snakes and paired with a CLI tool that allows easy execution on all platforms.",
     "isPublic": true,
