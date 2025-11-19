@@ -2,8 +2,8 @@
 
   {
     "title": "FitBunny",
-    "description": "Full-stack fitness tracking app built with Rust (Actix) and Svelte, using JWT auth with Supabase integration.",
-    "isPublic": false,
+    "description": "Full-stack app built with Rust (Actix) and Svelte, using JWT auth with Supabase integration.",
+    "isPublic": true,
     "link": "https://github.com/alexandermeade/fitbunny"
   },
   {
