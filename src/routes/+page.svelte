@@ -3,6 +3,7 @@
   import projects from '$lib/data/projects.json';
   import socials from '$lib/data/socials.json';
   import education from '$lib/data/education.json';
+  import experiences from '$lib/data/experience.json';
 </script>
 
 <main class="max-w-4xl mx-auto px-8 py-16 font-sans bg-[var(--gruv-bg)] text-[var(--gruv-fg)] rounded-lg shadow-lg pt-20 scroll-smooth mt-12">
@@ -30,6 +31,29 @@
           <p class="text-xs text-[var(--gruv-fg)] mb-3">{school.dates}</p>
           <ul class="list-disc list-inside space-y-1 text-[var(--gruv-fg)] marker:text-[var(--gruv-highlight)]">
             {#each school.details as detail}
+              <li style = "color:var(--gruv-fg)">{detail}</li>
+            {/each}
+          </ul>
+        </div>
+      {/each}
+    </div>
+  </section>
+
+
+  <!-- Education Section -->
+  <section id="experience" class="mt-16 max-w-4xl mx-auto px-6">
+    <h2 class="text-3xl font-bold mb-8 text-[var(--gruv-highlight)] border-b-4 border-[var(--gruv-highlight)] pb-2">
+      Experience
+    </h2>
+
+    <div class="space-y-10">
+      {#each experiences as job}
+        <div>
+            <h3 class="text-2xl font-semibold text-[var(--gruv-subject)]">{job.institution}: {job.position}</h3>
+
+          <p class="text-xs text-[var(--gruv-fg)] mb-3">{job.dates}</p>
+          <ul class="list-disc list-inside space-y-1 text-[var(--gruv-fg)] marker:text-[var(--gruv-highlight)]">
+            {#each job.details as detail}
               <li style = "color:var(--gruv-fg)">{detail}</li>
             {/each}
           </ul>

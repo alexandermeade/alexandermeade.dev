@@ -1,0 +1,32 @@
+[
+  {
+    "position": "Space Science Center Internship",
+    "institution": "Morehead State University",
+    "dates": "September 2025 - Present",
+    "details": [
+      "Created software solutions for routine tasks using Python, utilizing uv for project environment/version management.",
+      "Used Git and GitHub to manage project versions and communicate issues.",
+      "Worked with both open-source and closed-source libraries, with and without documentation.",
+      "Wrote in-depth documentation covering past projects."
+    ]
+  },
+  {
+    "position": "IT Internship",
+    "institution": "Morehead State University",
+    "dates": "February 2025 - May 2025",
+    "details": [
+      "Regularly re-imaged computers and deployed software for faculty and student machines.",
+      "Resolved customer issues and led technology-based solutions to technical problems."
+    ]
+  },
+  {
+    "position": "Math Tutor",
+    "institution": "Morehead State University",
+    "dates": "February 2025 - Present",
+    "details": [
+      "Helped students work through confusion by tracing conceptual understanding using custom notes and course abstractions.",
+      "Created self-made study materials for students across multiple math subjects."
+    ]
+  }
+]
+
