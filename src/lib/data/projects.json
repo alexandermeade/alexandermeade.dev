@@ -37,6 +37,19 @@
     "isPublic": true,
     "link": "https://github.com/alexandermeade/jason-rs"
   },
+  
+  {
+    "title": "Msu Renderer Presentation",
+    "description": "A full walk through on building a basic front face culling renderer in python using NumPy and PyGame",
+    "isPublic": true,
+    "link": "https://github.com/alexandermeade/msu-renderer-presentation"
+  },
+  {
+    "title": "zghfetch",
+    "description": "A neofetch like cli tool but for github that usese the kitty image protocol for displaying profile pictures",
+    "isPublic": true,
+    "link": "https://github.com/alexandermeade/zghfetch"
+  },
   {
     "title": "Snakes and Bits",
     "description": "An esoteric programming language built from the ground up using Rust with the Crossterm package. Inspired by the game Snakes and paired with a CLI tool that allows easy execution on all platforms.",
