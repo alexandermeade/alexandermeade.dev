@@ -64,25 +64,12 @@
     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
   },
   {
-    "name": "React",
-    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
-  },
-  {
     "name": "Unity",
     "icon": "https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg"
   },
   {
     "name": "Bash",
     "icon": "https://bashlogo.com/img/symbol/png/monochrome_light.png"
-  },
-  {
-    "name": "Elixir",
-    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg"
-  },
-
-  {
-    "name": "Phoenix",
-    "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1e/Phoenix_Framework_Logo.svg/1200px-Phoenix_Framework_Logo.svg.png"
   }
 ]
 
